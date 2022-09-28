@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1vw;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #2b5876 , #4e4376);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glavni{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.drugi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+button{
+    padding: 0.2vw 1vw;
+    background-color: white;
+}
+input{
+    padding: 0.2vw 1vw;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+}
+#paragraf{
+    font-size: 2vw;
+    color: white;
+}
